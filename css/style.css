@@ -1,0 +1,52 @@
+
+/*container*/
+.box {
+    background: red;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+/*container-fluid*/
+.box1 {
+    background: rebeccapurple;
+    padding: 50px;
+    text-align: center;
+    color: #ffff;
+}
+/*columns*/
+.text-columns {
+    background: green;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+.box3 {
+    background: #ff8d0052;
+    padding: 13px;
+}
+
+/*hr*/
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 5px solid 
+}
+/*============= animation =============*/
+.about{
+ position: relative;
+ background-repeat: no-repeat;
+ animation-name: test;
+ animation-duration: 9s;
+ animation-iteration-count: 3;
+ animation-direction: alternate;
+ animation-timing-function: linear;
+}
+@keyframes test {
+ 0%{left: 0px; top: 0px;}
+ 25%{left: 900px; top: 0px;}
+ 50%{ left: 900px; top: 280px;}
+ 75%{ left: 0px;top: 280px;}
+ 100%{ left: 0px; top: 0;}
+}
+
